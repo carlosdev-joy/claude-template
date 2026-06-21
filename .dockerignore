@@ -1,0 +1,18 @@
+# Mantém artefatos só-de-repo FORA das imagens de produção.
+.claude/
+CLAUDE.md
+
+# Controle de versão / CI
+.git/
+.github/
+.gitignore
+.dockerignore
+
+# Dev / docs / testes
+docs/
+tests/
+**/__pycache__/
+**/*.pyc
+
+# Dependências locais
+node_modules/

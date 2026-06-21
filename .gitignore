@@ -1,0 +1,12 @@
+# Local / ambiente
+.env
+.env.*
+!.env.example
+
+# Claude Code — versiona skills/agents/commands do projeto; ignora estado local
+.claude/*
+!.claude/skills/
+!.claude/agents/
+!.claude/commands/
+.claude/settings.local.json
+.claude/*.local.json
